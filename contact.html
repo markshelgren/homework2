@@ -24,7 +24,7 @@
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
-		<!-- Navigation -->
+		<!-- Begin Navigation -->
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<div class="container-fluid">
 				<div class="navbar-header">
@@ -45,7 +45,8 @@
 				</ul>
 			</div>
 		</nav>
-
+		<!-- End Navigation -->
+		<!-- Begin Main container -->
 		<main class="container-fluid">
 			<!-- Begin Section Mark's Contacts  -->
 			<section class="mb-4">
@@ -83,20 +84,21 @@
 				</h2>
 				<!--Section description-->
 
-				<div class="row">
-					<!--Grid column-->
-					<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8 mb-md-0 mb-5">
+				<!-- Begin Grid Row-->
+				<section class="row">
+					<!-- Begin Form -->
+					<section class="col-xs-12 col-sm-8 col-md-8 col-lg-8 mb-md-0 mb-5">
 						<form
 							id="contact-form"
 							name="contact-form"
 							action="mail.php"
 							method="POST"
 						>
-							<!--Grid row-->
-							<div class="row">
-								<!--Grid column-->
-								<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-									<div class="md-form mb-0">
+							<!-- End Grid Row-->
+							<!-- Begin Grid Row-->
+							<section class="row">
+								<section class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+									<section class="md-form mb-0">
 										<input
 											type="text"
 											id="name"
@@ -104,17 +106,14 @@
 											class="form-control"
 										/>
 										<label for="name" class="">Your name</label>
-									</div>
-								</div>
-								<!--Grid column-->
-							</div>
-							<!--Grid row-->
-
-							<!--Grid row-->
-							<div class="row">
-								<!--Grid column-->
-								<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-									<div class="md-form mb-0">
+									</section>
+								</section>
+							</section>
+							<!-- End Grid Row-->
+							<!-- Begin Grid Row-->
+							<section class="row">
+								<section class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+									<section class="md-form mb-0">
 										<input
 											type="text"
 											id="email"
@@ -122,16 +121,14 @@
 											class="form-control"
 										/>
 										<label for="email" class="">Your email</label>
-									</div>
-								</div>
-								<!--Grid column-->
-							</div>
-							<!--Grid row-->
-
-							<!--Grid row-->
-							<div class="row">
-								<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-									<div class="md-form mb-0">
+									</section>
+								</section>
+							</section>
+							<!-- End Grid Row-->
+							<!-- Begin Grid Row-->
+							<section class="row">
+								<section class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+									<section class="md-form mb-0">
 										<input
 											type="text"
 											id="subject"
@@ -139,16 +136,14 @@
 											class="form-control"
 										/>
 										<label for="subject" class="">Subject</label>
-									</div>
-								</div>
-							</div>
-							<!--Grid row-->
-
-							<!--Grid row-->
-							<div class="row">
-								<!--Grid column-->
-								<div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
-									<div class="md-form">
+									</section>
+								</section>
+							</section>
+							<!-- End Grid Row-->
+							<!-- Begin Grid Row-->
+							<section class="row">
+								<section class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+									<section class="md-form">
 										<textarea
 											id="message"
 											name="message"
@@ -156,23 +151,24 @@
 											class="form-control md-textarea"
 										></textarea>
 										<label for="message">Your message</label>
-									</div>
-								</div>
-							</div>
-							<!--Grid row-->
+									</section>
+								</section>
+							</section>
+							<!-- End Grid Row-->
 						</form>
+						<!-- End Form -->
 
-						<div class="text-center text-md-left">
+						<section class="text-center text-md-left">
 							<a
 								class="btn btn-primary"
 								onclick="document.getElementById('contact-form').submit();"
 								>Send</a
 							>
-						</div>
-						<div class="status"></div>
-					</div>
+						</section>
+						<section class="status"></section>
+					</section>
 					<!--Grid column-->
-				</div>
+				</section>
 			</section>
 			<!-- End Section Contact Mark -->
 		</main>
